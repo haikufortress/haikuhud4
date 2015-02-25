@@ -233,7 +233,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"xpos"			"c-50"	
-		"ypos"			"c104"	
+		"ypos"			"c94"	
 		"zpos"			"1"			// draw in front of ammo
 		"wide"			"90"
 		"tall"			"8"
@@ -462,10 +462,10 @@
 		"fieldName" "BuildingStatus_Engineer"
 		"visible"	"1"
 		"enabled"	"1"
-		"xpos"		"0"
-		"xpos_hidef"		"32"
-		"xpos_lodef"		"40"
-		"ypos"		"150"
+		"xpos"		"-10"
+		"xpos_hidef"		"-10"
+		"xpos_lodef"		"-10"
+		"ypos"		"40"
 		"ypos_hidef"		"16"
 		"ypos_lodef"		"25"
 		"wide"		"640"
@@ -1166,8 +1166,8 @@
 		"fieldName"		"HudDemomanPipes"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"c-50"	[$WIN32]
-		"ypos"			"c130"	[$WIN32]
+		"xpos"			"c-47"	[$WIN32]
+		"ypos"			"c95"	[$WIN32]
 		"wide"			"160"
 		"tall"			"160"
 	}	

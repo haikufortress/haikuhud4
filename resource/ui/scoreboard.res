@@ -79,7 +79,7 @@
 		"ypos"			"120"
 		"zpos"			"-1"
 		"wide"			"647"
-		"tall"			"300"
+		"tall"			"240"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -279,8 +279,8 @@
 		"font"			"Gothic16"
 		"labelText"		"%server%"
 		"textAlignment"		"east"
-		"xpos"			"448"
-		"ypos"			"45"
+		"xpos"			"0"
+		"ypos"			"0"
 		"wide"			"300"
 		"tall"			"20"
 		"autoResize"	"0"
@@ -322,7 +322,7 @@
 		"ypos"			"122"
 		"zpos"			"20"
 		"wide"			"330"
-		"tall"			"280"
+		"tall"			"225"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
@@ -344,7 +344,7 @@
 		"ypos"			"122"
 		"zpos"			"20"
 		"wide"			"330"
-		"tall"			"280"
+		"tall"			"225"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
@@ -448,7 +448,7 @@
 		"visible"		"0"
 		"enabled"		"1"
 		"tabPosition"	"0"	
-		"fillcolor"		"0 0 0 153"
+		"fillcolor"		"0 0 0 225"
 		"PaintBackgroundType"	"0"
 		
 		if_mvm
@@ -460,21 +460,21 @@
 	{
 		"ControlName"		"ImagePanel"
 		"fieldName"		"ClassImage"
-		"xpos"			"22"
-		"xpos_lodef"	"12"
-		"ypos"			"350"	[$WIN32]
-		"ypos"			"275"	[$X360]
+		"xpos"			"999"
+		"xpos_lodef"	"999"
+		"ypos"			"999"	[$WIN32]
+		"ypos"			"995"	[$X360]
 		"zpos"			"3"
 		"wide"			"92"
 		"tall"			"92"
 		"visible"		"0"
-		"enabled"		"1"
+		"enabled"		"0"
 		"image"			"../hud/class_scoutred"
 		"scaleImage"		"1"	
 		
 		if_mvm
 		{
-			"visible"		"1"
+			"visible"		"0"
 		}
 	}
 	"PlayerNameLabel"
